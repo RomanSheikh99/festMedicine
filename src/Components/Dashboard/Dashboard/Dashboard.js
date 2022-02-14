@@ -39,7 +39,7 @@ function Dashboard(props) {
 
   
   useEffect(() => {
-    fetch('https://obscure-sierra-48545.herokuapp.com/admins')
+    fetch('https://thawing-taiga-23080.herokuapp.com/admins')
       .then(res => res.json())
       .then(data => {
         data.forEach(admin => {
@@ -65,7 +65,7 @@ console.log(admin);
         <li>
           <Link to="/">Home</Link>
         </li>
-        {!admin.email && <li>
+        {admin.email && <li>
           <Link to={`${url}/myBooking`}>My Booking</Link>
         </li>}
         {!admin.email && <li>
