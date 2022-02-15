@@ -15,8 +15,8 @@ const Products = () => {
   }, []);
   if (isLoading) {
     return (
-      <div className="spinner-border text-success" role="status">
-        <span className="visually-hidden">Loading...</span>
+      <div className="spinner-border text-center text-success" role="status">
+        <span style={{margin: '0 auto'}} className="visually-hidden">Loading...</span>
       </div>
     );
   } else {

@@ -136,7 +136,7 @@ const Register = () => {
           {isLoading && <CircularProgress />}
         </Grid>
         <Grid item xs={12} md={6}>
-          <img src={loginImage} alt="" style={{ width: '100%' }} />
+          <img src={loginImage} alt="" style={{ width: '100%',maxHeight: '630px' }} />
         </Grid>
       </Grid>
     </Container>

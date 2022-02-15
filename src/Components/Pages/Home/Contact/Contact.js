@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import img from '../../../../images/contact.jpg'
+import img from '../../../../images/contact.png'
 import fb from '../../../../images/icon/facebook.png'
 import inst from '../../../../images/icon/instagram.png'
 import yt from '../../../../images/icon/youtube.png'

@@ -65,9 +65,9 @@ console.log(admin);
         <li>
           <Link to="/">Home</Link>
         </li>
-        {admin.email || <li>
+        <li>
           <Link to={`${url}/myBooking`}>My Booking</Link>
-        </li>}
+        </li>
         {!admin.email && <li>
           <Link to={`${url}/pay`}>Pay</Link>
         </li>}
